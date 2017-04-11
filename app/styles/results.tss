@@ -1,0 +1,27 @@
+".container": {
+	backgroundImage: 'images/background.png',
+	layout: "vertical",
+	height: "100%"
+}
+".middle-menu": {
+	color: "black",
+	layout: "vertical",
+	top: "15dp",
+	height: "25dp",
+	width: "100%",
+	backgroundColor: "white"
+}
+".highlights": {
+	color: "black",
+	layout: "horizontal",
+	height: "260dp",
+	width: "100%",
+	backgroundColor: "#eceef2"
+}
+".bottom-menu": {
+	color: "#eceef2",
+	layout: "horizontal",
+	height: "70dp",
+	width: "100%",
+	backgroundColor: "white"
+}

@@ -1,0 +1,45 @@
+".container": {
+	backgroundImage: 'images/background.png'
+}
+
+".subtitle": {
+	width: Ti.UI.SIZE,
+	color: "white",
+	top: "5dp"
+}
+
+".center": {
+	layout: "vertical",
+	top: "70",
+	bottom: "70"
+}
+
+"#username": {
+	backgroundColor:'transparent',
+	borderRadius: "50" ,
+	borderColor: "#596c8f",
+	borderWidth: "1",
+	color: "#596c8f",
+	width: "80%",
+	top: "110dp",
+	textAlign: "center"
+}
+
+"#password": {
+	backgroundColor:'transparent',
+	borderRadius: "50",
+	borderColor: "#596c8f",
+	borderWidth: "1",
+	color: "#596c8f",
+	width: "80%",
+	top: "20dp",
+	textAlign: "center"
+}
+
+".login-btn": {
+	backgroundColor: "#f33d54",
+	width: "80%",
+	color: "white",
+	borderRadius: "50",
+	top: "30dp"
+}

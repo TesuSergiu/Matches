@@ -1,0 +1,73 @@
+<Alloy>
+	<Window class="container">
+		<View layout="horizontal" top="15dp" width="100%" height="25dp">
+				<View width="33.3%" layout="vertical">
+					<ImageView image="images/arrow-icon-left.png"></ImageView>
+				</View>
+				<View width="33.3%" layout="vertical">
+					<Label color="white">Match Overview</Label>
+				</View>
+				<View width="33.3%" layout="vertical">
+					<ImageView image="images/bookmark-icon-right.png"></ImageView>
+				</View>
+		</View>
+		<View layout="horizontal" top="15dp" height="90dp" width="90%">
+			<View width="33.3%" layout="vertical">
+					<ImageView image="images/switzerland-flag.png"></ImageView>
+					<Label color="white">Switzerland</Label>
+				</View>
+				<View width="33.3%" layout="vertical" top="15dp">
+					<Label color="white">Round of 16</Label>
+					<Label color="white">0 - 1</Label>
+					<Label color="white">End</Label>
+				</View>
+				<View width="33.3%" layout="vertical">
+					<ImageView image="images/poland-flag.png"></ImageView>
+					<Label color="white">Poland</Label>
+				</View>
+		</View>
+		<View class="middle-menu">
+				<View width="100%">
+					<View width="80%" layout="horizontal">
+						<Label width="31%" color="#596c8f">Live stream</Label>
+						<Label right="18dp" width="23%" color="black">Highlights</Label>
+						<Label width="20%" color="#596c8f">Stats</Label>
+						<Label width="20%" color="#596c8f">Draw</Label>
+					</View>
+				</View>
+		</View>
+		<View class="highlights">
+				<View width="100%" layout="horizontal">
+					<View width="100%" layout="vertical" top="15dp">
+						<ImageView image="images/points-before-after-halftime.png"></ImageView>
+						<ImageView left="40dp" image="images/first-player.png"></ImageView>
+						<ImageView left="175dp" image="images/second-player.png"></ImageView>
+						<ImageView left="53dp" image="images/third-player.png"></ImageView>
+						<ImageView left="175dp" image="images/forth-player.png"></ImageView>
+						<ImageView image="images/points-before-after-halftime.png"></ImageView>
+						<Label color="#abb5c4">HALF TIME</Label>
+						<ImageView image="images/points-before-after-halftime.png"></ImageView>
+						<ImageView left="62dp" image="images/last-player-good.png"></ImageView>
+					</View>
+				</View>
+		</View>
+		<View class="bottom-menu">
+				<View width="25%" layout="vertical" top="15dp">
+					<ImageView image="images/ball-logo.png"></ImageView>
+					<Label color="black">Matches</Label>
+				</View>
+				<View width="25%" layout="vertical" top="15dp">
+					<ImageView image="images/user-logo.png"></ImageView>
+					<Label color="#596c8f">Top Players</Label>
+				</View>
+				<View width="25%" layout="vertical" top="15dp">
+					<ImageView image="images/bookmark-logo-bottom.png"></ImageView>
+					<Label color="#596c8f">Favorites</Label>
+				</View>
+				<View width="25%"layout="vertical" top="15dp">
+					<ImageView image="images/settings-logo.png"></ImageView>
+					<Label color="#596c8f">Settings</Label>
+				</View>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,11 @@
+<Alloy>
+	<Window class="container">
+		<View class="center">
+		<ImageView id="logo" image="images/logo.png"></ImageView>
+		<Label class="subtitle">Lorem ipsum dolor sit amet consec</Label>
+		<TextField hintText="kowalczyk@symu.co" id="username"></TextField>
+		<TextField hintText="******************" passwordMask="true" id="password"></TextField>
+		<Button class="login-btn" onClick="ChangePage">LOG IN</Button>
+		</View>
+	</Window>
+</Alloy>
